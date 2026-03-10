@@ -377,46 +377,6 @@ export default function AgroIAHome() {
           </div>
         </div>
       </section>
-      <section className="map-section">
-        <h3>Mapa Interativo de Oportunidades</h3>
-
-        <div className="map-card">
-          <div className="pixel-corner top-left"></div>
-          <div className="pixel-corner bottom-right"></div>
-
-          <ul>
-            <li>Identificamos se o ROI é baixo ou alto</li>
-            <li>Filtre por produto, estado, ROI mínimo e época de plantio</li>
-            <li>Veja regiões com maior concentração de oportunidades</li>
-            <li>
-              Sinalizamos eventos extremos: granizo, ondas de calor/frio,
-              tempestades
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <section className="features">
-        <div className="feature-card">
-          <h4>Financeiro</h4>
-          <p>ROI, preços, frete e lucro projetado automaticamente.</p>
-        </div>
-
-        <div className="feature-card">
-          <h4>Clima</h4>
-          <p>Previsão de chuva, temperatura e eventos extremos.</p>
-        </div>
-
-        <div className="feature-card">
-          <h4>Qualidade</h4>
-          <p>Shelf-life, perdas estimadas e armazenagem inteligente.</p>
-        </div>
-
-        <div className="feature-card ai-card">
-          <h4>🤖 IA Recomenda</h4>
-          <p>COMPRAR / NÃO COMPRAR / AGUARDAR</p>
-        </div>
-      </section>
     </div>
   );
 }
